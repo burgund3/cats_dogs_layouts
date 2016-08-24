@@ -6,10 +6,18 @@
     android:orientation="vertical"
     tools:context="com.example.pjez.catdogs.MainActivity">
 
-    <LinearLayout
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:text="@string/question_prefer"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1">
 
         <ImageView
@@ -30,8 +38,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true">
+        android:layout_height="wrap_content">
 
         <Button
             android:layout_width="match_parent"
